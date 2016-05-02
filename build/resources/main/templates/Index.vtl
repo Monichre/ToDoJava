@@ -1,5 +1,14 @@
-
 <h1>Task list!</h1>
+
+#if ($tasks)
+  <ul>
+    #foreach ($task in $tasks)
+      <li>$task.getDescription()</li>
+    #end
+  </ul>
+#else
+  <p>No tasks!</p>
+#end
 
 <p>Add a new Task:</p>
 
