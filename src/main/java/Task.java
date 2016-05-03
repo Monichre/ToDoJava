@@ -77,36 +77,4 @@ public class Task {
 
 
 
-  // public void completeTask(){
-  //   mCompleted = true;
-  // }
-  //
-  // public boolean isCompleted() {
-  //   return mCompleted;
-  // }
-  //
-  // public LocalDateTime getCreatedAt() {
-  //   return mCreatedAt;
-  // }
-  //
-  // public static ArrayList<Task> all() {
-  //   return instances ;
-  // }
-  //
-  //
-  //
-  // public static Task find(int id){
-  //   try{
-  //     return instances.get(id - 1);
-  //   } catch (IndexOutOfBoundsException e){
-  //     return null;
-  //   }
-  // }
-  //
-  // public static void clearTasksArray() {
-  //
-  //   //METHOD BELOW IS A BUILT IN METHOD
-  //   instances.clear();
-  // }
-
 }
